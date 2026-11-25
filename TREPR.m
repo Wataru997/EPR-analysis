@@ -82,9 +82,9 @@ kcb=kbc*exp(-(Bav*2*pi*28.0249*1e6)*0.3/6e10/0.6950/T);
 		h1=-90; h1=h1/360*2*pi; % rotation around the Z'' axis
 
       %% Conformation in TT2 (T1 and T2)
-		f01=10; f01=f01/360*2*pi; % rotation around the Z axis 
+		f01=30; f01=f01/360*2*pi; % rotation around the Z axis 
 		g01=30; g01=g01/360*2*pi; % rotation around the X' axis  %2 @ 0.4 us  42 deg at 2.5 us
-		h01=-10; h01=h01/360*2*pi; % rotation around the Z'' axis
+		h01=-30; h01=h01/360*2*pi; % rotation around the Z'' axis
       
         f2=90; f2=f2/360*2*pi; % rotation around the Z axis 
 		g2=-30; g2=g2/360*2*pi; % rotation around the X' axis  %12 deg for TcD-BiPh
